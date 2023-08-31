@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import CallbackContext
 
-from src.domain.handlers.interfaces.ihelp_handler import IHelpHandler
+from domain.handlers.interfaces.ihelp_handler import IHelpHandler
 
 
 class HelpHandler(IHelpHandler):

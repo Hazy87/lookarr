@@ -2,9 +2,9 @@ from telegram import Update
 from telegram.ext import CallbackContext
 from kink import inject
 
-from src.domain.handlers.interfaces.imedia_handler import IMediaHandler
-from src.domain.handlers.interfaces.imovie_handler import IMovieHandler
-from src.logger import ILogger
+from domain.handlers.interfaces.imedia_handler import IMediaHandler
+from domain.handlers.interfaces.imovie_handler import IMovieHandler
+from logger import ILogger
 
 
 @inject

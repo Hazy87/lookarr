@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import CallbackContext, ConversationHandler
 
-from src.domain.handlers.stop_handler import stop_handler
-from src.domain.user import UserReply
+from domain.handlers.stop_handler import stop_handler
+from domain.user import UserReply
 
 
 class check_search_is_valid:

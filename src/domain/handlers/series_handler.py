@@ -2,13 +2,13 @@ from telegram import Update
 from telegram.ext import CallbackContext
 from kink import inject
 
-from src.domain.checkers.authentication_checker import check_user_is_authenticated
-from src.domain.checkers.conversation_checker import check_conversation
-from src.domain.handlers.interfaces.imedia_handler import IMediaHandler
-from src.domain.handlers.interfaces.iseries_handler import ISeriesHandler
-from src.domain.handlers.messages_handler import MessagesHandler
-from src.interface.keyboard import Keyboard
-from src.logger import ILogger
+from domain.checkers.authentication_checker import check_user_is_authenticated
+from domain.checkers.conversation_checker import check_conversation
+from domain.handlers.interfaces.imedia_handler import IMediaHandler
+from domain.handlers.interfaces.iseries_handler import ISeriesHandler
+from domain.handlers.messages_handler import MessagesHandler
+from interface.keyboard import Keyboard
+from logger import ILogger
 
 
 @inject

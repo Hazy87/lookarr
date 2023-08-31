@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from src.infrastructure.media_server import MediaServer
+from infrastructure.media_server import MediaServer
 
 
 class IMediaServerFactory(ABC):

@@ -5,7 +5,7 @@ if TYPE_CHECKING:
 else:
     from pydantic.dataclasses import dataclass
 
-from src.constants import SUPPORTED_LANGUAGES
+from constants import SUPPORTED_LANGUAGES
 
 
 @dataclass

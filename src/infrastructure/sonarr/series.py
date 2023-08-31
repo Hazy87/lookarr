@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional
 
-from src.constants import DEFAULT_IMAGE
+from constants import DEFAULT_IMAGE
 
 
 @dataclass

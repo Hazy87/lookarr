@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 from typing import Type
 
-from src.infrastructure.interfaces.imedia_server_repository import IMediaServerRepository
-from src.infrastructure.media_type import TMediaType
+from infrastructure.interfaces.imedia_server_repository import IMediaServerRepository
+from infrastructure.media_type import TMediaType
 
 
 @dataclass

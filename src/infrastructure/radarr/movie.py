@@ -2,8 +2,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional
 
-from src.constants import YOUTUBE_BASE_URL, DEFAULT_IMAGE
-from src.infrastructure.ratings import Ratings
+from constants import YOUTUBE_BASE_URL, DEFAULT_IMAGE
+from infrastructure.ratings import Ratings
 
 
 @dataclass

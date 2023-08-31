@@ -2,8 +2,8 @@ from telegram import Update
 from telegram.ext import CallbackContext, ConversationHandler
 from kink import inject
 
-from src.domain.auth.interfaces.iauthentication import IAuth
-from src.logger import ILogger
+from domain.auth.interfaces.iauthentication import IAuth
+from logger import ILogger
 
 
 def check_user_is_authenticated(func):

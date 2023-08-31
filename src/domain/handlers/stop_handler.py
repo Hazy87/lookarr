@@ -3,8 +3,8 @@ from telegram.ext import CallbackContext, ConversationHandler
 from telegram.error import BadRequest
 from kink import inject
 
-from src.domain.checkers.authentication_checker import check_user_is_authenticated
-from src.logger import ILogger
+from domain.checkers.authentication_checker import check_user_is_authenticated
+from logger import ILogger
 
 
 @inject

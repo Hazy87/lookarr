@@ -1,6 +1,6 @@
-from src.infrastructure.folder import Folder
-from src.infrastructure.quality_profiles import QualityProfile
-from src.interface.buttons import Buttons
+from infrastructure.folder import Folder
+from infrastructure.quality_profiles import QualityProfile
+from interface.buttons import Buttons
 
 
 class Keyboard:

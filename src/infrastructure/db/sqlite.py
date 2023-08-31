@@ -1,8 +1,8 @@
 import sqlite3
 from kink import inject
 
-from src.constants import LOOKAR_DB_PATH
-from src.infrastructure.interfaces.IDatabase import IDatabase
+from constants import LOOKAR_DB_PATH
+from infrastructure.interfaces.IDatabase import IDatabase
 
 
 @inject

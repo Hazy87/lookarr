@@ -3,7 +3,7 @@ import os
 from abc import ABC, abstractmethod
 from pathlib import Path
 
-from src.constants import LOG_FULL_PATH
+from constants import LOG_FULL_PATH
 
 
 class ILogger(ABC):

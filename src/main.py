@@ -3,19 +3,19 @@
 from os import environ, path, makedirs
 
 from kink import inject
-from src.dependencies.services import configure_services
+from dependencies.services import configure_services
 
-from src.domain.handlers.interfaces.iauthentication_handler import IAuthHandler
-from src.domain.handlers.interfaces.imedia_handler import IMediaHandler
+from domain.handlers.interfaces.iauthentication_handler import IAuthHandler
+from domain.handlers.interfaces.imedia_handler import IMediaHandler
 
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
-from src.domain.config.app_config import Config
-from src.domain.handlers.interfaces.ihelp_handler import IHelpHandler
-from src.domain.handlers.interfaces.imovie_handler import IMovieHandler
-from src.domain.handlers.interfaces.istop_handler import IStopHandler
-from src.domain.handlers.interfaces.iseries_handler import ISeriesHandler
-from src.domain.validators.env_validator import EnvValidator
-from src.infrastructure.interfaces.IDatabase import IDatabase
+from domain.config.app_config import Config
+from domain.handlers.interfaces.ihelp_handler import IHelpHandler
+from domain.handlers.interfaces.imovie_handler import IMovieHandler
+from domain.handlers.interfaces.istop_handler import IStopHandler
+from domain.handlers.interfaces.iseries_handler import ISeriesHandler
+from domain.validators.env_validator import EnvValidator
+from infrastructure.interfaces.IDatabase import IDatabase
 
 
 @inject

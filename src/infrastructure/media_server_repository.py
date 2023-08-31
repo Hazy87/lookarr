@@ -7,9 +7,9 @@ from kink import inject
 import json
 import requests
 
-from src.infrastructure.api_query import ApiConfig
-from src.infrastructure.media_type import TMediaType
-from src.logger import ILogger
+from infrastructure.api_query import ApiConfig
+from infrastructure.media_type import TMediaType
+from logger import ILogger
 
 
 class IMediaServerRepositoryBase(ABC):

@@ -2,11 +2,11 @@ from telegram import Update
 from telegram.ext import CallbackContext, ConversationHandler
 from kink import inject
 
-from src.domain.auth.interfaces.iauthentication import IAuth
-from src.domain.config.app_config import Config
-from src.domain.handlers.interfaces.iauthentication_handler import IAuthHandler
-from src.domain.user import UserReply
-from src.logger import ILogger
+from domain.auth.interfaces.iauthentication import IAuth
+from domain.config.app_config import Config
+from domain.handlers.interfaces.iauthentication_handler import IAuthHandler
+from domain.user import UserReply
+from logger import ILogger
 
 
 @inject

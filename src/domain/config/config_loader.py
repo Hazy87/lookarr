@@ -1,8 +1,8 @@
 from yaml import safe_load
 from kink import inject
 
-from src import ILogger
-from src.domain.config.app_config import Config
+from logger import ILogger
+from domain.config.app_config import Config
 
 
 @inject

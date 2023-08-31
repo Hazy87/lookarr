@@ -1,7 +1,7 @@
 from telegram import InlineKeyboardButton
 
-from src.infrastructure.folder import Folder
-from src.infrastructure.quality_profiles import QualityProfile
+from infrastructure.folder import Folder
+from infrastructure.quality_profiles import QualityProfile
 
 
 class Buttons:

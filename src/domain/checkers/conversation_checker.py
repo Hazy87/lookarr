@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import CallbackContext, ConversationHandler
 
-from src.domain.handlers.stop_handler import stop_handler
+from domain.handlers.stop_handler import stop_handler
 
 
 class check_conversation:

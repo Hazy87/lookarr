@@ -1,7 +1,7 @@
 from functools import wraps
 from time import time, sleep
 
-from src.logger import ILogger
+from logger import ILogger
 from kink import inject
 
 

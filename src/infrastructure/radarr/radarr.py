@@ -2,13 +2,13 @@ import os
 from kink import inject
 import json
 import requests
-from src.domain.config.app_config import Config
-from src.infrastructure.api_query import ApiConfig
-from src.infrastructure.interfaces.imedia_server_repository import IMediaServerRepository
-from src.infrastructure.media_server_repository import IMediaServerRepositoryBase
-from src.infrastructure.radarr.movie import Movie
+from domain.config.app_config import Config
+from infrastructure.api_query import ApiConfig
+from infrastructure.interfaces.imedia_server_repository import IMediaServerRepository
+from infrastructure.media_server_repository import IMediaServerRepositoryBase
+from infrastructure.radarr.movie import Movie
 from urllib.parse import quote
-from src.logger import ILogger
+from logger import ILogger
 
 
 @inject

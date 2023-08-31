@@ -2,9 +2,9 @@ from typing import List
 
 from kink import inject
 
-from src.infrastructure.interfaces.imedia_server_factory import IMediaServerFactory
-from src.infrastructure.media_server import MediaServer
-from src.infrastructure.interfaces.imedia_server_repository import IMediaServerRepository
+from infrastructure.interfaces.imedia_server_factory import IMediaServerFactory
+from infrastructure.media_server import MediaServer
+from infrastructure.interfaces.imedia_server_repository import IMediaServerRepository
 
 
 @inject

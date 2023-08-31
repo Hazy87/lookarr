@@ -2,15 +2,15 @@ import os
 from kink import inject
 import json
 import requests
-from src.domain.config.app_config import Config
-from src.domain.config.media_server_config import MediaServerConfig
-from src.infrastructure.api_query import ApiConfig
-from src.infrastructure.interfaces.imedia_server_repository import IMediaServerRepository
+from domain.config.app_config import Config
+from domain.config.media_server_config import MediaServerConfig
+from infrastructure.api_query import ApiConfig
+from infrastructure.interfaces.imedia_server_repository import IMediaServerRepository
 from urllib.parse import quote
 
-from src.infrastructure.media_server_repository import IMediaServerRepositoryBase
-from src.infrastructure.sonarr.series import Series
-from src.logger import ILogger
+from infrastructure.media_server_repository import IMediaServerRepositoryBase
+from infrastructure.sonarr.series import Series
+from logger import ILogger
 
 
 @inject
